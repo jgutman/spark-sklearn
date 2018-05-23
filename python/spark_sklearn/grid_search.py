@@ -230,7 +230,7 @@ class SparkBaseSearchCV(BaseSearchCV):
         self.n_splits_ = n_splits
 
         if self.verbose > 1:
-            print(self.scorer)
+            print(self.scorer_)
             print(self.cv_results_)
             print(self.n_splits_)
         return self
